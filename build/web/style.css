@@ -1,0 +1,148 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 1, 2023, 2:03:56 AM
+    Author     : leonovo
+*/
+
+
+/*CSS RESETS*/
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   white-space: nowrap;
+   display: block;
+}
+body{
+    background-color: darkgray;
+}
+
+
+label{
+    font-size: 20px;
+    font-weight: bolder;
+    color: darkgray;
+    font-family: monospace;
+}
+
+/*STYLING HEADER TAGS*/
+.loginHeader{
+   
+   text-align: center;
+   position: relative;
+   right: 20px;
+   margin-bottom: 3%;
+    
+}
+
+/*STYLING FORM(PAGE MAIN CONTENT)*/
+.LoginForm{
+    background-color: white;
+    
+    
+    width: 500px;
+    height: 750px;
+    
+    margin-left: 10%;
+    margin-top: 5%;
+    padding-top: 5%;
+    border-radius: 10px;
+    
+    display: inline-block;
+    
+    background-position: center;
+    
+}
+
+div {
+    margin-left: 10%;
+}
+
+
+/*STYLING INPUTS FIELD*/
+div input {    
+   border: none;
+   border-bottom: solid 2px lightgrey;
+   
+   width: 400px;
+   height: 20px;
+   
+   outline: none;
+   
+   margin: 4%;
+   
+   
+   
+}
+
+/*STYLING FPASSWORD HYPERLINKS*/
+.fpass{
+    text-align: right;
+    position: relative;
+    right: 40px;
+    
+    
+    font-size: 18px;
+    font-weight: lighter;
+    
+    font-family: initial;
+}
+
+/*STYLING LOGIN BUTTON*/
+.LoginButton{
+    width: 370px;
+    height: 35px;
+    
+    border-radius: 20px;
+    
+    position:relative;
+    left: 20px;
+    top: 20px;
+    
+    color: darkgrey;
+    
+    font-weight: bold;
+    
+    font-size: 15px;
+    
+    outline: none;
+    
+}
+
+/*FOOTER STYLES*/
+.label2{
+    text-align: center;
+    position: relative;
+    top: 160px;
+}
+
+.label3{
+   text-align: center;
+   position: relative;
+   top: 160px;
+   
+   font-weight: bold;
+   margin-top: 2%;
+}
+
+/*STYLING HYPERLINKS*/
+a{
+   outline: none;
+   color:blue;
+}
+a:hover{
+   text-decoration: none;
+   color: blue;
+}
+a:active{
+  color: blue;
+}
+a:visited{
+    text-decoration: none;
+    color: red;
+}
+
+

@@ -1,0 +1,141 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 14, 2023, 12:45:32 AM
+    Author     : leonovo
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+  
+}
+nav{
+    white-space: nowrap;
+}
+form{
+    max-width: 90%;
+    background-color: red;
+    height: 1400px;
+    background-position: center;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 2%;
+    
+    padding: 10%;
+}
+.release h1{
+  position: relative;
+   top: 25px;
+   left: 190px;
+   margin-top: 3%;
+
+   border-left: ridge 12px lightyellow;
+   padding-left: 1%;
+   
+}
+
+.release div{
+   position: relative;
+   top: 25px;
+   left: 190px;
+   margin-top: 3%;
+
+   padding-left: 5%;
+   
+   white-space: nowrap;
+}
+
+.release span{
+  font-weight: bolder;
+  font-size: 25px;
+  
+}
+.release aside{
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.minfo{
+   position: relative;
+   top: 25px;
+   left: 190px;
+   margin-top: 3%;
+
+   border-left: ridge 12px lightyellow;
+   padding-left: 1%;
+}
+
+.imageD{
+    margin-top: 5%;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    
+    position: relative;
+    left: 200px;
+}
+
+.textD{
+  border: solid 3px black;
+  position: relative;
+  top: 40px;
+  left: 280px;
+  width: 300px;
+  word-spacing: 2px;
+  font-family: monospace;
+  font-weight: bolder;
+  color: white;
+ 
+  border-radius: 20px;
+  outline: none;
+
+  padding: 3%; 
+  
+  background-color: black;
+ 
+}
+
+.links div{
+  word-spacing: 60px;
+  white-space: nowrap;
+  
+}
+.links a{
+    text-decoration: none;
+    position: relative;
+    left: 190px;
+    top: 18px;
+    white-space: nowrap;
+   
+    font-size: 30px;
+    font-family: monospace;
+    
+}
+
+.links a:visited{
+    color: purple;
+}
+
+.links a:focus{
+   background-color: lightslategray;
+   background-size: 200px;
+   
+}
+
+.links a:active{
+    color: blue;
+}
+
+div button{
+   position: relative;
+   bottom: 22px;
+}
+
+footer{
+    margin-left: 5%;
+}
